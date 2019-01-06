@@ -1,0 +1,59 @@
+body{
+    background-color: #fefefe;
+    color:black;
+    font-size: 16px;
+}
+#main-div{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: 10px 20px 20px 10px;
+    padding: 20px 40px 40px 40px;
+}
+header{
+    text-align: center;
+}
+#caption{
+    text-align: center;
+}
+#spidey-logo{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+h2{
+    text-align: center;
+}
+p{
+    display: block;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+#subtitle{
+    font-size: 20px;
+}
+footer{
+    text-align: right;
+}
+#img{
+    display: block;
+    margin: auto;
+}
+ul{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+li{
+    text-align: left;
+}
+#text{
+    margin: 20px;
+}
+#final{
+    width: 80%;
+}
+#img-div{
+    margin: 30px;
+    background-color: inherit;
+}
