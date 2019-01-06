@@ -21,12 +21,12 @@ header{
     border-radius: 50%;
 }
 h2{
-    text-align: center;
+    text-align: left;
 }
 p{
     display: block;
     margin: auto;
-    width: 80%;
+    width: auto;
     text-align: left;
 }
 #subtitle{
@@ -40,7 +40,7 @@ footer{
     margin: auto;
 }
 ul{
-    width: 80%;
+    width: auto;
     display: block;
     margin: 0 auto;
 }
@@ -51,9 +51,13 @@ li{
     margin: 20px;
 }
 #final{
-    width: 80%;
+    width: auto;
 }
 #img-div{
-    margin: 30px;
+    padding-left: 30px;
     background-color: inherit;
+    float: right;;
+}
+#block{
+    background-color: red;
 }
