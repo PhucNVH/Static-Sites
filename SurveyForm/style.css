@@ -1,0 +1,69 @@
+body {
+  background-color: powderblue;
+  background-image: url(Resources/background.png);
+  font-family: 'Raleway', Helvetica, sans-serif;;
+  text-align:center;
+  font-size:18px;
+}
+#main-div{
+  margin:20px;
+  background-color: powderblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+#title{
+  text-align:center;
+}
+#description{
+  font-size:20px;
+}
+.rowTab{
+  margin:20px;
+}
+.input-label{
+display: inline-block;
+  text-align:right;
+  vertical-align:middle;
+  width:40%;
+}
+.righttab{
+  width:40%;
+  vertical-align:middle;
+  text-align:left;
+  display: inline-block;
+}
+ul{
+  text-align:left;
+}
+#rate-label{
+  width:40%;
+}
+ul{
+  list-style:none;
+  text-align:left;
+}
+.inputbox{
+  text-align:left;
+  width: 300px;
+  height: 30px;
+  border: 1px solid;
+  border-color: #c0c0c0;
+  border-radius: 2px;
+}
+li{
+  position:relative;
+  display:block;
+  margin-left:-40px;
+}
+button{
+  width:90px;
+  height:40px;
+}
+select{
+  width: 300px;
+  height: 30px;
+}
+#comment{
+    width: 300px;
+  height: 50px;
+}

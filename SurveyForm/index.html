@@ -1,0 +1,112 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Survey Form</h1>
+  </header>
+  <div id="main-div">
+    <p id="description">Let me know how do you think about me</p>
+
+    <form id="survey-form">
+      <div class="rowTab">
+        <div class="input-label">
+          <label id="name-label">* Name:<label>
+          </div>
+            <div class="righttab">
+              <input type="text" id="name" class="inputbox" placeholder="Enter your name" required="">
+            </div>
+        </div>
+      <div class="rowTab">
+        <div class="input-label">
+          <label id="email-label">* Email:<label>
+        </div>
+        <div class="righttab">
+          <input type="email" id="email" class="inputbox" placeholder="Enter your email" required="">
+        </div>
+      </div>
+      <div class="rowTab">
+        <div class="input-label">
+          <label id="number-label">* Age:<label>
+        </div>
+        <div class="righttab">
+          <input type="number" id="number" class="inputbox" required="" min="0" max="100" placeholder="Enter your age">
+        </div>
+      </div>
+<div class="rowTab">
+        <div class="input-label">
+          <label id="select-label">Your are:<label>
+        </div>
+        <div class="righttab">
+          <select id="dropdown" class="dropdown" required="">
+            <option disabled="" value="">Select an option </option>
+            <option  value="friend">My Friend</option>
+            <option  value="coworker">Co-worker</option>
+            <option  value="family">My family</option>
+            <option  value="brothers">Brothers</option>
+            <option  value="knew">Just know me</option>
+            <option  value="NaN">It's secret</option>
+          </select>
+        </div>
+      </div>
+      <div class="rowTab">
+        <div class="input-label" id="rate-label">
+          <label >If you can rate me with these value It would be:<label>
+        </div>
+        <div class="righttab">
+          <ul>
+            <li> <label><input type="radio" name="radio-buttons" value="Bad">Bad</label> </li>
+            <li> <label><input type="radio" name="radio-buttons" value="Normal">Normal</label> </li>
+          <li> <label><input type="radio" name="radio-buttons" value="Cool">Cool</label></li>
+        <li> <label><input type="radio" name="radio-buttons" value="Great">Supa Great</label></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rowTab">
+        <div class="input-label">
+          <label id="cb-label">What point you like most about me:<label>
+        </div>
+        <div class="righttab">
+          <select  class="dropdown"id="most-like">
+            <option disabled="" value="">Select an option </option>
+            <option value="Kind">Kind</option>
+            <option value="Handsome">Handsome</option>
+            <option value="Stupid">Stupid</option>
+            <option value="Nice">Nice</option>
+          </select>
+        </div>
+      </div>
+      <div class="rowTab">
+        <div class="input-label" id="rate-label">
+          <label >In your eye, I am:<label>
+        </div>
+        <div class="righttab">
+          <ul>
+            <li> <label><input type="checkbox" name="radio-buttons" value="badass">Bad Ass</label> </li>
+            <li> <label><input type="checkbox" name="radio-buttons" value="admirable">Admirable</label> </li>
+            <li> <label><input type="checkbox" name="radio-buttons" value="cute">Cute</label></li>
+          <li> <label><input type="checkbox" name="radio-buttons" value="stupid">Stupid</label></li>
+        <li> <label><input type="checkbox" name="radio-buttons" value="great">Great</label></li>
+          </ul>
+        </div>
+      </div>
+                <div class="rowTab">
+        <div class="input-label">
+          <label id="number-label">Anything you would like to tell me:<label>
+        </div>
+        <div class="righttab">
+          <textarea id="comment" placeholder="Enter your comment here"> </textarea>
+        </div>
+      </div>
+      <div class="rowTab">
+        <button type="submit" id="submit">Submit</button>
+      </div>        
+      </form>
+    </div>
+  </body>
+</html>
