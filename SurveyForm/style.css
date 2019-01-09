@@ -1,15 +1,16 @@
 body {
   background-color: powderblue;
-  background-image: url(Resources/background.png);
+  background-image: url(https://lh3.googleusercontent.com/qppZ5QrQpz-HsRG-vLOPrB_mBQY8IVDxvgRh9mx5SQN_U6OH5muiiAVsFtLzO20zdpXkwqZfJ7FdcqQ9LXvQCF0dBs91E71WfPzpC_izuRjAE2zWVJVVFYuJLiBSlg1jLgFAqvhtYvFOSehAW11jPTyIhfjUzfc5DUFbcpaCE5iAJcdPtjGT8HUmESFCX2exClzTiEfAgR2fovvQJHs9EGhcjVRfe6ZOC91eTy1onjQoYRItEjRXKpJneRXVn8PW-ID9P15K_JAWax8w-BfA8MrUF9znA506TK6W6xezfBCzxinFwteDJihQc6sOP0JpzsTQIkg7gXKNQkAs2Px-dFQSTHTWMj2oeCvZVeIA5FhC_X06GI44Bt6FVyh7M5MTtzGRba-w3hLE7rBQLnyq_HNrioGbq-JzG2LAe6T21mK2c1ZyQim41Lpa4W5qE2OR-tY4NPa1FH5puGp7cKv1DTS0SoSet4kzlW_WfJ0wYGqeVcTk1GxFEiRbl6WODPlQTGVEKwY1-6aT3lJNg3GcSLFAbolamAtIutamPBRKTMNcgrqBI0pY-WLiU1iA3gEeIXtOaKK5qoVJFz5W23UOGrP2AxLy1EHiBhKGTLl-bOpeJXZ6jZ3T5J4w9Zt77fv33Hyy-JBopc8C82UqPt6x3RAtGVzT3Z0yUxzBQuEOArYyj4Ylvl6_0bZ5Jhe9G9c1yIo8ZrPfW2Pj_Cv9=w2400);
   font-family: 'Raleway', Helvetica, sans-serif;;
   text-align:center;
   font-size:18px;
 }
 #main-div{
-  margin:20px;
+  margin:2%;
   background-color: powderblue;
-  padding: 20px;
-  border-radius: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 2%;
 }
 #title{
   text-align:center;
@@ -18,7 +19,7 @@ body {
   font-size:20px;
 }
 .rowTab{
-  margin:20px;
+  margin:2%;;
 }
 .input-label{
 display: inline-block;
@@ -35,7 +36,10 @@ display: inline-block;
 ul{
   text-align:left;
 }
-#rate-label{
+#rate-label1{
+  width:40%;
+}
+#rate-label2{
   width:40%;
 }
 ul{
@@ -44,26 +48,70 @@ ul{
 }
 .inputbox{
   text-align:left;
-  width: 300px;
-  height: 30px;
+  width: 70%;
+  height: 25px;;
   border: 1px solid;
   border-color: #c0c0c0;
-  border-radius: 2px;
+  border-radius: 1%;
 }
 li{
   position:relative;
   display:block;
-  margin-left:-40px;
+  margin-left:-8%;
 }
 button{
-  width:90px;
+  width:8%;
   height:40px;
 }
 select{
-  width: 300px;
+  width: 70%;
   height: 30px;
 }
 #comment{
-    width: 300px;
-  height: 50px;
+    width: 70%;
+    height: 50px;
+}
+@media (max-width: 770px){
+  body{
+    font-size:14px;
+  }
+  .inputbox{
+    margin:2%;
+    width: 100%;
+  }
+  button{
+    width:30%;
+    margin:2px;
+    margin-top:5%;
+  }
+  #comment{
+    width: 100%;
+    height: 30px;
+}
+  select{
+  width: 100%;
+  height: 20px;
+}
+  li{
+  position:relative;
+  display:block;
+  margin-left:0;
+}
+  .righttab{
+    width:45%;
+  }
+  #rate-label1{
+  width:45%;
+}
+  #rate-label2{
+  width:45%;
+}
+  .rowTab{
+    margin:0;
+  }
+  #main-div{
+  margin:2%;
+  padding-bottom:5%;
+   padding-top: 2%;
+}
 }

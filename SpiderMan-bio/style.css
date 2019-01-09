@@ -3,15 +3,15 @@ body{
     color: wheat;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("Resources/spidey-background.png");
-    background-size: 100%;
+    background-image: url("https://lh3.googleusercontent.com/UYvdJGAe3lOyCHvnJzak6a1m3PPaVI6-4gM6d6gqbnalaN3B-cqGYfJVlY0ZpqysVSWpxw4qap0TuZSAICfi09ca8-FoFDCKrIG8P0o3938lJmzEuT1eMdZy0ooYjXWWZPho4pCdyhsMV5E1FjBx2GKH-BR4Gef-3r9Us_MoXWkgr5CwSApsWcc2GcB7lkuAjXwp4k0jBF3SzTQmqo2tmv4wRTgInAUy6KKEexc7VkmW-UgzNew2au4LLhz2JxIPpzY7Sg_ehN9F4_4JL_ZgeCf4hwvBuhs1rCeNrJBnS9eUMFiQtDxqA6N-hfYgr_IL815F2EWx1DbB9zIuqZeDpWmt7y_M8GxMCt2j8dVUQ7mHI27jy_Meo_RYUUaU_5cC5WE8et00koOxc8LKPV_xqD1hvRb23IFb0tU-DTsz0LSb1z4tL6ZGn5hWBbAEOofMEM2SxGnbkaZz_Fq4nS9oBx1Yx7_bDphMOtU5lCycth_YFrYeqDQP5aWxINFnoe634DH_vqhIHzWeR6NQPlcUp5ess6mba-2zLyV5XW6umVvYVRE_y5u-JSJNGeZFL5__xNE8se09XR4cKI2WN4bSx_WdolGklIIWn4352550JbbHKunuykTYLGf0jXEc4lX_98fo81XCmmx1u_X8bSy3MeeMpUhSU3SgH7QRo0UIwMteH6529Ul75PGsiBei293_FajWBIcPVhkVYxGB=w2400");
+    background-size: cover;
 }
 
 #main-div{
     background-color: transparent;
-    border-radius: 10px;
-    margin: 10px 20px 20px 10px;
-    padding: 20px 40px 40px 40px;
+    border-radius: 10%;
+    margin: 2% 2% 2% 2%;
+    padding: 2% 2% 2% 2%;
 }
 header{
     text-align: center;
@@ -54,16 +54,16 @@ li{
     text-align: left;
 }
 #text{
-    margin: 20px;
+    margin: 2%;
 }
 #final{
     width: auto;
 }
 #img-div{
-    padding-left: 30px;
+    padding-left: 4%;
     background-color: inherit;
     float: right;;
-    margin-top: 25px;
+    margin-top: 5%;
 }
 #block{
     background-color: red;
