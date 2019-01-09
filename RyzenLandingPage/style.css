@@ -1,0 +1,269 @@
+body{
+background-color: #353839;
+  margin:0px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color:white;
+}
+header{
+  position: fixed;
+  background-color:black;
+  padding: 0px;
+  margin:0px;
+  display:flex;
+  width:100%;
+  height:60px;
+  
+}
+#header-img{
+  margin-left:80px;
+  max-width: 100%;
+  max-height: 100%;
+  width:100px;
+  height: auto;
+  padding-top:0px;
+  padding-bottom:15px;
+  display:inline-block;
+}
+#ryzen-logo{
+  margin-left:50px;
+  max-width: 100%;
+  max-height: 100%;
+  width:98px;
+  height: auto;
+  display:inline-block;
+}
+ul{
+ float:right;
+ list-style:none;
+ margin:0;
+}
+nav{
+  width:800px;
+}
+#logo{
+  width:80%;
+}
+.header{
+  float:left;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:50px;
+  color:white;
+  text-align:center;
+}
+.header:hover{
+  background-color:darkslategray ;
+}
+
+#feature{
+  color:white;
+}
+.grid{
+  display: flex;
+  width:100%;
+  height:400px;
+  flex-direction:row;
+}
+.desc{
+  background-color:black;
+  display:table-cell;
+  width:50%;
+  vertical-align:middle;
+  padding:38px;
+  font-size:19px;
+}
+img{
+   width:100%;
+   height:100%;
+   background-color:black;
+   display:block;
+  
+}
+.feature-img{
+  display:table-cell;
+  vertical-align:middle;
+  background-color:black;
+}
+#p1{
+  width:100%;
+  float:right;
+}
+#f2{
+  width:60%;
+}
+#p2{
+  width:60%;
+}
+#videodiv{
+  width:100%;
+  height:600px;
+  background-image: url(https://www.amd.com/system/files/138886-ryzen-heavy-metal-1920x600.jpg);
+  background-repeat:no-repeat;
+  float:left;
+  vertical-align:middle;
+  color:white;
+}
+#video-text{
+  padding:50px;
+  margin-top:100px;
+  width:40%;
+    float:left;
+}
+iframe{
+  vertical-align:middle;
+  float:left;
+  margin-top:120px;
+  margin-bottom:150px;
+}
+.grad{
+  background-image: linear-gradient(#3b383e,#2c2a36,#1c222a,#111b24);
+}
+#f3{
+  width:50%;
+}
+a{
+  color: white;
+  text-decoration:none;
+}
+#Performance{
+  padding:50px;
+  padding-top:80px;
+  padding-bottom:100px;
+  display:flex;
+  background-color:black;
+  justify-content: center;
+  text-align:center;
+  height:300px;
+}
+.table-wrapper{
+  margin-left: 150px;
+  width:70%;
+  text-align:center;
+  height:200px;
+}
+#Perh2{
+  margin-top: 70px;
+  margin-left:70px;
+  vertical-align: center;
+}
+table{
+  background-color: #202020;
+  border-collapse: collapse;
+}
+th,td{
+  padding:8px;
+  border-collapse: collapse;
+  background-color: #202020;  
+  border: 1px solid black;
+}
+.type{
+  font-size:25px;
+  height:35px;
+  padding:5px;
+}
+#Pricing{
+  display:flex;
+  text-align:center;
+  margin: auto;
+  width: 65%;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+ol{
+  list-style-type:none;
+
+}
+.ol{
+  pointer-events: none;
+  padding:15px;
+  width:70%;
+}
+#ryzen3{
+  width:250px;
+  border: 1.5px solid #327962;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#240095;
+  padding-bottom:15px;
+  background-image: linear-gradient(#0C0032,#190061,#224f62);
+}
+#ryzen7{
+  width:250px;
+  border: 1.5px solid #8860D0;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#0C0032;
+  background-image: linear-gradient(#0C0032,#190061,#44318D);
+}
+#ryzen5{
+  width:250px;
+  border: 1.5px solid #0050FD;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#190061;
+  background-image: linear-gradient(#0C0032,#190061,#00008D);
+  padding-bottom:15px;
+  padding-bottom:15px;
+}
+
+#PriceContain{
+   background-image: linear-gradient(#191b27,#36394a,#524f62);
+}
+.button {
+  background-color: #2E9CAA; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:2px;
+}
+.button:hover{
+  background-color:#3cbccc;
+  color:#08462a;
+}
+li{
+  text-align:center;
+}
+#email-div{
+  margin-top:0px;
+  height:550px;
+ background-image:url("https://asset.msi.com/event/mb/2018/best-ryzen/images/tb.jpg");
+  background-size: cover;
+}
+#hero{
+  text-align:center;
+  margin-top:0;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+#form{
+  padding-top:50px;
+}
+#form h2{
+  font-size:50px;
+}
+#email{
+  width:560px;
+  height:35px;
+  font-size:25px;
+}
+#submit{
+  margin:20px;
+  width:100px;
+  height:40px;
+  color:white;
+  background-color:#1abc9c;
+  border-color:#1abc9c;
+}
+#submit:hover{
+  background-color:#3498db;
+}
+@media (max-width:500px)
+{
+  background-color:gray;
+}
