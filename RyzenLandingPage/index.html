@@ -4,7 +4,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css"/>
   <title>AMD Ryzen 3000</title>
 </head>
 
@@ -16,9 +15,9 @@
     </div>
     <nav id="nav-bar">
       <ul>
-        <li class="header"><a href="#Feature" class="nav-link">Feature</a></li>
-        <li class="header"><a href="#Performance" class="nav-link">Performance</a></li>
-        <li class="header"><a href="#Pricing" class="nav-link">Pricing</a></li>
+        <div class="navbut"><li class="header"><a href="#Feature" class="nav-link">Feature</a></li></div>
+        <div class="navbut"><li class="header"><a href="#Performance" class="nav-link">Performance</a></li></div>
+        <div class="navbut"><li class="header"><a href="#Pricing" class="nav-link">Pricing</a></li></div>
       </ul>
     </nav>
   </header>
@@ -28,36 +27,36 @@
         <h2>AMD Ryzen™ Desktop Processors</h2>
         <h3>Incredible Performance<br>Faster, smoother gaming experiences<br>Designed for gamers, streamers and enthusiasts that demand more.</h3>
       </div>
-      <iframe width="620" height="400" src="https://www.youtube.com/embed/Dr5xTsi8RZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+      <iframe src="https://www.youtube.com/embed/Dr5xTsi8RZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
     </div>
-    <div>
+    <div id="fea">
       <div class="grid" id="Feature">
-        <div class="desc" id="f2">
+        <div class="desc">
           <h2>Gaming & Streaming With AMD Ryzen CPU</h2>
           <p> Streaming and gaming at the same time requires a strong computer to ensure your gameplay smooth. Choosing the right motherboard and processor which can offer best multi-tasking performance will allow you to record or stream gameplay using high-quality
             software encoding. When it comes to price-to-power performance, AMD’s second-generation Ryzen 5 CPUs with 6 cores and 12 unlocked threads can offer premium streaming efficiency</p>
         </div>
-        <div class="feature-img" class="f1">
+        <div class="feature-img f1" >
           <img src="https://storage-asset.msi.com/event/mb/2018/best-ryzen/images/pd01.png" id="p1">
         </div>
       </div>
-      <div class="grid">
-        <div class="feature-img" id="p2">
+      <div class="grid" id="Feature2">
+        <div class="feature-img" id="nondisplay">
           <img src="https://origincdn.blob.core.windows.net/cdn/landing/2018/amd-ryzen-2/img/intelligence-bg.jpg">
         </div>
-        <div class="desc" id="f2">
+        <div class="desc">
           <h2>True Intelligence</h2>
           <p>Every 2nd Gen AMD Ryzen™ desktop processor is equipped with a true neural net to analyze your computing needs, adapting its performance profile every millisecond. The result is an intelligent processor that adapts to your specific workload,
             for all your demanding needs. <br> Game. Stream. Design. Create. Bring your imagination to life with the intelligent 2nd Gen AMD Ryzen™ desktop processor.</p>
         </div>
       </div>
-      <div class="grid">
-        <div class="desc grad" id="f3">
+      <div class="grid" id="grad">
+        <div class="desc" >
           <h2>AMD-Ryzen Master</h2>
           <h3>Your tool to unlock AMD Ryzen™ Processors</h3>
           <p>Every AMD Ryzen processor is multiplier-unlocked from the factory, so you can personalize performance to your taste. AMD provides the AMD Ryzen Master utility to access this powerful advantage.</p>
         </div>
-        <div class="feature-img" id="p2">
+        <div class="feature-img" >
           <img src="https://i.ibb.co/98xn2Bd/mastertool.png" id="p1">
         </div>
       </div>
@@ -153,7 +152,7 @@
           <div class="type">
             <b>Ryzen 3</b>
           </div>
-          <h2>From $99</h2>
+          <h2 class="from">From $99</h2>
           <ol>
             <li class="ol">Lorem ipsum.</li>
             <li class="ol">Lorem ipsum.</li>
@@ -167,7 +166,7 @@
             <b>Ryzen 5</b>
           
           </div>
-          <h2>From $199</h2>
+          <h2 class="from">From $199</h2>
           <ol>
             <li class="ol">Lorem ipsum.</li>
             <li class="ol">Lorem ipsum.</li>
@@ -180,7 +179,7 @@
           <div class="type">
             <b>Ryzen 7</b>
           </div>
-          <h2>From $299</h2>
+          <h2 class="from">From $299</h2>
           <ol>
             <li class="ol">Lorem ipsum.</li>
             <li class="ol">Lorem ipsum.</li>
@@ -202,6 +201,9 @@
     </form>
   </section>
   </div>
+  <footer>
+    
+  </footer>
 </body>
 
 </html>
