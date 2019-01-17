@@ -246,7 +246,6 @@ body{
     margin-top:0px;
     height:550px;
    background-image:url("https://asset.msi.com/event/mb/2018/best-ryzen/images/tb.jpg");
-   
   }
   #hero{
     text-align:center;
@@ -294,7 +293,6 @@ body{
     }
   }
     @media (max-width:768px){
-    
     .desc{
       font-size:14px;
     }
@@ -374,7 +372,8 @@ body{
   
       #videodiv{
         height:600px;
-        justify-content:center; 
+        justify-content:center;
+        
       }
       #Performance{
         display:block;
