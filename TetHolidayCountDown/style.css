@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  }
+  h1,h2 {
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  body{
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    background-color:powderblue;
+    text-align: center;
+    }
+  .container{
+    height:30vh;
+  }
+  #text1{
+      height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction:column;
+  }
+  #wrap{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:center;
+    align-items: center;
+    height:40vh;
+  }
+  #text2{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction:column;
+  }
+  #hour{
+    background-color: #ff9a00;
+  }
+  #second{
+   background-color: 	#ff5a00;
+  }
+  #minute{
+    background-color: #ff9a00;
+}
+  #day{
+   background-color: 	#ff5a00;
+  }
+  @keyframes moveleft {
+    0%   {
+      margin-right:0px;
+      margin-left:0px;
+    }
+    
+    50% {
+      margin-right:50px;
+      margin-left:50px;}
+    100%{
+      margin-right:0px;
+      margin-left:0px;
+    }
+  }
+  .timer{
+    animation-name: moveleft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left:50px;
+    margin-right:50px;
+    height:5em;
+    width:5em;
+    background-color:yellow;
+    border-radius:50%;
+    vertical-align: middle;
+    line-height: 5em; 
+    text-align:center;
+    font-size:30px;
+  }
+  .timer:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+  }
+  @media (orientation:portrait) { 
+    #wrap{
+      font-size:12px;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto auto;
+    }
+    .timer{
+      animation-name: move;
+      font-size:2em;
+    }
+    @keyframes move {
+    0%   {
+      right:0px;
+      
+    }
+    
+    50% {
+      
+      left:50px;
+      }
+    100%{
+      right:0px;
+      
+    }
+  }
+  }

@@ -1,0 +1,61 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    transition: background-color .7s;
+}
+#quote-box{
+    box-sizing: border-box;
+    background-color: white;
+    font-size:2.7rem;
+    width:500px;
+    height:auto;
+    min-height:320px;
+    padding:30px 20px;
+    margin-top:10rem;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: color .7s;
+}
+#quote-wrap{
+    display:table;
+    vertical-align: middle;
+}
+#text{
+    height: 100%;
+    text-align: center;
+}
+#author{
+    text-align: right;
+}
+.left{
+    font-size: 5rem;
+    float:left;
+}
+.right{
+    height: 100%;
+    float: right;
+    display:flex;
+    align-items: center;
+    line-height: 50px;
+}
+#next-quote{
+    height: 5rem;
+    background-color: #000;
+    color:white;
+    transition: background-color .7s;
+}
+#buttons{
+    cursor: default;
+    height:  30%;
+    width: 100%;
+    line-height: 78px;
+}
