@@ -1,20 +1,24 @@
 
 
-// Set the date we're counting down to
-var countDownDate = new Date("Feb 5, 2019 00:00:00").getTime();
+// Get Vietnamese New Year from calendarific
 var year = 2020;
-var requestQuery = "https://calendarific.com/api/v2/holidays?country=VN&year=" + year + "&api_key=1adf4a3e7f5fe650030caf52535da3bd697c3150";
-
+//change your api key here
+const apikey ="1adf4a3e7f5fe650030caf52535da3bd697c3150";
+var requestQuery = "https://calendarific.com/api/v2/holidays?country=VN&year=" + year + "&api_key="+apikey;
+//request to calendarific server
 var queryResult = $.ajax({
     url: requestQuery,
-    async: false,
+    async: false,   
 });
 
 var Holidays = queryResult.responseJSON["response"]["holidays"];
+
+//the JSON result we get is varied from year to year
+//console.log(Holidays); //check it out
+//So we need to find it 
 function findNewYear(holidays) {
     for (var i = 0; i < holidays.length; i++)
         if (holidays[i]["name"] == ["Vietnamese New Year"]) {
-
             return holidays[i];
         }
 }
